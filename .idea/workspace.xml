@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +49,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -53,6 +73,10 @@
       <workItem from="1616497531881" duration="1567000" />
       <workItem from="1616499370105" duration="432000" />
       <workItem from="1616514416152" duration="2226000" />
+      <workItem from="1616517737787" duration="1552000" />
+      <workItem from="1616577677237" duration="6556000" />
+      <workItem from="1616660659076" duration="6455000" />
+      <workItem from="1617010005065" duration="3264000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1616514897931</created>
@@ -61,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616514897931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1616518008190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616518008190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
