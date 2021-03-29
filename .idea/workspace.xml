@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +58,7 @@
       <workItem from="1616517737787" duration="1552000" />
       <workItem from="1616577677237" duration="6556000" />
       <workItem from="1616660659076" duration="6455000" />
-      <workItem from="1617010005065" duration="3264000" />
+      <workItem from="1617010005065" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1616514897931</created>
@@ -92,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616518008190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added content with simple html and css">
+      <created>1617015296942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617015296942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="added content with simple html and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added content with simple html and css" />
   </component>
 </project>
