@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ItemCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ItemsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Powers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PowersButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,7 +34,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1q9c5p9ykyZB7dJfVm3icT5a38I" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +73,10 @@
       <workItem from="1616517737787" duration="1552000" />
       <workItem from="1616577677237" duration="6556000" />
       <workItem from="1616660659076" duration="6455000" />
-      <workItem from="1617010005065" duration="3942000" />
+      <workItem from="1617010005065" duration="10871000" />
+      <workItem from="1617094244531" duration="7795000" />
+      <workItem from="1617648157596" duration="236000" />
+      <workItem from="1617698450873" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1616514897931</created>
@@ -81,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617015296942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added content with simple html and css">
+      <created>1617016126434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617016126434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

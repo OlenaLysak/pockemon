@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import ItemsList from "./ItemsList";
 
 function App() {
   return (
@@ -7,96 +8,7 @@ function App() {
         <div className={"title"}>Pokedex</div>
         <div className={"container"}>
             <div className={"listContainer"}>
-                <div className={"list"}>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Bulbazar</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"greenButton"}>Grass</button>
-                            <button className={"purpleButton"}>Poison</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Charmander</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"redButton"}>Fire</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Pikachu</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"yellowButton"}>Electric</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Bulbazar</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"greenButton"}>Grass</button>
-                            <button className={"purpleButton"}>Poison</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Charmander</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"redButton"}>Fire</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Pikachu</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"yellowButton"}>Electric</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Bulbazar</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"greenButton"}>Grass</button>
-                            <button className={"purpleButton"}>Poison</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Charmander</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"redButton"}>Fire</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Pikachu</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"yellowButton"}>Electric</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Bulbazar</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"greenButton"}>Grass</button>
-                            <button className={"purpleButton"}>Poison</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Charmander</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"redButton"}>Fire</button>
-                        </div>
-                    </div>
-                    <div className={"item"}>
-                        <div className={"imageSection"} />
-                        <div>Pikachu</div>
-                        <div className={"buttonsContainer"}>
-                            <button className={"yellowButton"}>Electric</button>
-                        </div>
-                    </div>
-                </div>
+                <ItemsList />
                 <button className={"loadButton"}>Load More</button>
             </div>
             <div className={"selectedSection"}>
@@ -104,6 +16,7 @@ function App() {
                     <div className={"imageSelectedItem"} />
                     <div className={"selectedTitle"}>Charmander #004</div>
                     <table  border="1" className={"tableOfAbilities"}>
+                        <tbody>
                         <tr>
                             <td className={"ability"}>Type</td>
                             <td className={"abilityValue"}>Fire</td>
@@ -140,6 +53,7 @@ function App() {
                             <td className={"ability"}>Total moves</td>
                             <td className={"abilityValue"}>89</td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
