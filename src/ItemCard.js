@@ -4,12 +4,12 @@ import PowersButtons from "./PowersButtons";
 
 class ItemCard extends React.Component {
     render() {
-        const name = this.props.name;
+        const { name, powers } = this.props;
         return (
             <div className={"item"}>
                 <div className={"imageSection"} />
                 <div>{name}</div>
-                <PowersButtons powers={this.props.powers} />
+                <PowersButtons powers={powers} />
             </div>
         )
     }
