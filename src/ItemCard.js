@@ -9,7 +9,7 @@ class ItemCard extends React.Component {
             <div className={"item"}>
                 <div className={"imageSection"} />
                 <div>{name}</div>
-                <PowersButtons powers={powers} />
+                {/*<PowersButtons powers={powers} />*/}
             </div>
         )
     }

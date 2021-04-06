@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ItemCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PowersButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PowersButtons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1617010005065" duration="10871000" />
       <workItem from="1617094244531" duration="7795000" />
       <workItem from="1617648157596" duration="236000" />
-      <workItem from="1617698450873" duration="6151000" />
+      <workItem from="1617698450873" duration="8829000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1616514897931</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617701327587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed classes of buttons, refactoring">
+      <created>1617708624240</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617708624240</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +132,7 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="added content with simple html and css" />
     <MESSAGE value="added items list and item card" />
-    <option name="LAST_COMMIT_MESSAGE" value="added items list and item card" />
+    <MESSAGE value="fixed classes of buttons, refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed classes of buttons, refactoring" />
   </component>
 </project>
