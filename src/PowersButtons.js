@@ -3,10 +3,6 @@ import React from "react";
 
 
 class PowersButtons extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className={"buttonsContainer"}>
