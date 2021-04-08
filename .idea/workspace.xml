@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="">
+    <list default="true" id="994e303e-94c6-4948-af51-874d0825d6b6" name="Default Changelist" comment="api pokemon names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ItemCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PowersButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PowersButtons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,9 @@
       <workItem from="1617010005065" duration="10871000" />
       <workItem from="1617094244531" duration="7795000" />
       <workItem from="1617648157596" duration="236000" />
-      <workItem from="1617698450873" duration="8829000" />
+      <workItem from="1617698450873" duration="10314000" />
+      <workItem from="1617789295596" duration="599000" />
+      <workItem from="1617798903766" duration="5550000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1616514897931</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617708624240</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="api pokemon names">
+      <created>1617719797507</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617719797507</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +143,7 @@
     <MESSAGE value="added content with simple html and css" />
     <MESSAGE value="added items list and item card" />
     <MESSAGE value="fixed classes of buttons, refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed classes of buttons, refactoring" />
+    <MESSAGE value="api pokemon names" />
+    <option name="LAST_COMMIT_MESSAGE" value="api pokemon names" />
   </component>
 </project>

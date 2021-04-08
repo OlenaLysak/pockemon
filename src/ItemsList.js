@@ -22,9 +22,6 @@ class ItemsList extends React.Component {
                         items: result.results
                     });
                 },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
                 (error) => {
                     this.setState({
                         isLoaded: true,
@@ -35,15 +32,7 @@ class ItemsList extends React.Component {
     }
 
     render() {
-        const { error, isLoaded, items } = this.state;
-        // return (
-        //     <div className={"list"}>
-        //         {this.state.items.map((item, index) => (
-        //             <ItemCard key={index} name={item.name} />
-        //         ))}
-        //
-        //     </div>
-        // )
+        const { error, isLoaded } = this.state;
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -52,7 +41,7 @@ class ItemsList extends React.Component {
             return (
                 <div className={"list"}>
                          {this.state.items.map((item, index) => (
-                             <ItemCard key={index} name={item.name} />
+                             <ItemCard key={index} name={item.name} url={item.url} />
                          ))}
                 </div>
             );
