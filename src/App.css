@@ -47,6 +47,10 @@
   height: 200px;
   margin: 10px;
 }
+.image {
+  width: 200px;
+  height: 200px;
+}
 .buttonsContainer {
   display: flex;
   flex-direction: row;

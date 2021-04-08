@@ -21,7 +21,8 @@ const ItemCard = class ItemCard extends React.Component {
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        powers: result.types
+                        powers: result.types,
+                        pokemonId: result.id
                     });
                 },
                 (error) => {
@@ -34,8 +35,9 @@ const ItemCard = class ItemCard extends React.Component {
     }
 
     render() {
-        const { error,  isLoaded } = this.state;
+        const { error,  isLoaded, pokemonId } = this.state;
         const name = this.props.name;
+        const imgUrl = "https://pokeres.bastionbot.org/images/pokemon/" + pokemonId + ".png";
 
         const style = {
             display: 'flex',
@@ -48,7 +50,8 @@ const ItemCard = class ItemCard extends React.Component {
             ':hover': {
                 cursor: 'pointer'
             }
-    }
+        }
+
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -56,7 +59,9 @@ const ItemCard = class ItemCard extends React.Component {
         } else {
             return (
                 <div style={style}>
-                    <div className={"imageSection"} />
+                    <div className={"imageSection"}>
+                        <img className={"image"} src={imgUrl} alt={name}/>
+                    </div>
                     <div>{name}</div>
                     <PowersButtons powers={this.state.powers} />
                 </div>
