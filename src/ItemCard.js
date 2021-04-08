@@ -1,8 +1,9 @@
 import './App.css';
 import React from "react";
+import Radium from "radium";
 import PowersButtons from "./PowersButtons";
 
-class ItemCard extends React.Component {
+const ItemCard = class ItemCard extends React.Component {
 
     constructor(props) {
         super(props);
@@ -35,13 +36,26 @@ class ItemCard extends React.Component {
     render() {
         const { error,  isLoaded } = this.state;
         const name = this.props.name;
+
+        const style = {
+            display: 'flex',
+            border: 'solid 1px black',
+            width: '250px',
+            height: '350px',
+            margin: '10px',
+            flexDirection: 'column',
+            alignItems: 'center',
+            ':hover': {
+                cursor: 'pointer'
+            }
+    }
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
             return <div>Loading...</div>;
         } else {
             return (
-                <div className={"item"}>
+                <div style={style}>
                     <div className={"imageSection"} />
                     <div>{name}</div>
                     <PowersButtons powers={this.state.powers} />
@@ -51,4 +65,4 @@ class ItemCard extends React.Component {
     }
 }
 
-export default ItemCard;
+export default Radium(ItemCard);
