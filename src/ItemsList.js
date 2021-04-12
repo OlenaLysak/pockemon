@@ -33,6 +33,7 @@ class ItemsList extends React.Component {
 
     render() {
         const { error, isLoaded } = this.state;
+        console.log(this.props);
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -41,7 +42,7 @@ class ItemsList extends React.Component {
             return (
                 <div className={"list"}>
                          {this.state.items.map((item, index) => (
-                             <ItemCard key={index} name={item.name} url={item.url} />
+                             <ItemCard key={index} name={item.name} url={item.url} onClick={this.props.handleClick}/>
                          ))}
                 </div>
             );
