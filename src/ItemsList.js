@@ -42,7 +42,10 @@ class ItemsList extends React.Component {
             return (
                 <div className={"list"}>
                          {this.state.items.map((item, index) => (
-                             <ItemCard key={index} name={item.name} url={item.url} onClick={this.props.handleClick}/>
+                             <ItemCard key={index}
+                                       name={item.name}
+                                       url={item.url}
+                                       handleClick={this.props.handleClick}/>
                          ))}
                 </div>
             );

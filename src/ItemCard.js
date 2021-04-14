@@ -22,7 +22,8 @@ const ItemCard = class ItemCard extends React.Component {
                     this.setState({
                         isLoaded: true,
                         powers: result.types,
-                        pokemonId: result.id
+                        pokemonId: result.id,
+                        pokemonObject: result
                     });
                 },
                 (error) => {
@@ -58,7 +59,7 @@ const ItemCard = class ItemCard extends React.Component {
             return <div>Loading...</div>;
         } else {
             return (
-                <div style={style}>
+                <div style={style} onClick={() => this.props.handleClick(this.state.pokemonObject)}>
                     <div className={"imageSection"}>
                         <img className={"image"} src={imgUrl} alt={name}/>
                     </div>

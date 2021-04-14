@@ -8,17 +8,21 @@ class App extends React.Component {
     constructor() {
         super();
         this.state = {
-            selected: false
+            selected: false,
+            selectedPokemonData: null
         }
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick() {
-        // this.setState({selected: !this.state.selected})
-        console.log("Clicked!");
+    handleClick(pokemonObject) {
+        this.setState({
+            selected: !this.state.selected,
+            selectedPokemonData: pokemonObject
+        });
     }
 
     render() {
+        let pokemonData = this.state.selectedPokemonData ? this.state.selectedPokemonData : null;
         return (
             <div className={"cover"}>
                 <div className={"title"}>Pokedex</div>
@@ -27,7 +31,7 @@ class App extends React.Component {
                         <ItemsList handleClick={this.handleClick}/>
                         <button className={"loadButton"}>Load More</button>
                     </div>
-                    <SelectedItem/>
+                    <SelectedItem pokemonData={pokemonData}/>
                 </div>
             </div>
         );

@@ -107,6 +107,11 @@ button {
   margin: 10px;
 }
 
+.selectedImage {
+  width: 300px;
+  height: 300px;
+}
+
 .selectedTitle {
   font-weight: bold;
   font-size: 30px;
